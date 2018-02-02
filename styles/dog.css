@@ -1,0 +1,64 @@
+body {
+	background: #b8cba6 url(/images/bg.gif) left top repeat-x;
+	margin: 0; padding: 0;
+	color: #261013;
+	font: .8em/1.4em helvetica, arial, sans-serif;
+	}
+
+div#container {
+	position: relative;
+	left: 50%;
+	width: 600px;
+	margin-left: -300px; padding: 130px 0 0 50px;
+	background: transparent url(/images/contbg.jpg) left top no-repeat;
+	}
+	
+div#topblock {
+	margin-left: 295px;
+	width: 221px;
+	margin-bottom: 60px;
+	text-align: center;
+	}
+	
+div#topblock ul {
+	margin-left: 0; padding-left: 0;
+	}
+
+div#topblock ul li {
+	list-style-type: none;
+	}
+	
+h2 {
+	text-align: left;
+	width: 500px; height: 16px;
+	border-bottom: 1px #90a081 solid;
+	}
+	
+h2#obit {
+	background: url(/images/obit.gif) left top no-repeat;
+	}
+	
+h2#photo {
+	background: url(/images/photo.gif) left top no-repeat;
+	}
+	
+h2#prog {
+	background: url(/images/prog.gif) left top no-repeat;
+	}
+	
+h2 span {
+	display: none;
+	}
+	
+p {
+	width: 500px;
+	text-align: left;
+	}
+	
+a {
+	color: #960;
+	}
+	
+a:hover {
+	color: #930;
+	}
